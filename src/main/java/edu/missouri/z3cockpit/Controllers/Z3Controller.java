@@ -12,7 +12,7 @@ public class Z3Controller {
 //    @ResponseBody
     public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
         model.addAttribute("name", name);
-        return "greeting";
+        return "greeting2";
     }
 
 //    public static void main(String[] args) throws Exception {
